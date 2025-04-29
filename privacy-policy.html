@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Docs SideWriter</title>
+    <title>Privacy Policy - QuickDocs: Write Faster in Google Docs</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,38 +16,94 @@
         h1 {
             color: #6a11cb;
         }
+        h2 {
+            color: #2575fc;
+            margin-top: 25px;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 25px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .contact {
+            background-color: #f5f8ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy for Docs SideWriter</h1>
-    <p>Last Updated: 04/10/2024</p>
+    <h1>Privacy Policy for QuickDocs: Write Faster in Google Docs</h1>
+    <p class="last-updated">Last Updated: April 29, 2025</p>
     
     <h2>1. Introduction</h2>
-    <p>Docs SideWriter ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information about users of our Chrome extension ("the Extension").</p>
+    <p>QuickDocs: Write Faster in Google Docs ("we", "our", "us", or "the Extension") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information when you use our Chrome extension.</p>
     
     <h2>2. Information We Collect</h2>
     <ul>
-        <li><strong>Google Account Information:</strong> To use the Extension, you may need to grant us access to your Google account through OAuth. This allows us to access specific Google Drive and Google Docs files as authorized by you.</li>
-        <li><strong>Usage Data:</strong> We may collect anonymous usage statistics, such as how often features are used, to improve our service.</li>
-        <li><strong>No Collection of Personal Information:</strong> The Extension does not collect or store personal information beyond what is required for accessing Google Docs.</li>
+        <li><strong>Google Account Access:</strong> The Extension requires you to grant permission to access your Google Drive and Google Docs through Google's OAuth authentication system. We request only the minimum permissions necessary:</li>
+        <ul>
+            <li><code>https://www.googleapis.com/auth/drive.readonly</code> - To allow you to see and select from your Google Docs files</li>
+            <li><code>https://www.googleapis.com/auth/documents</code> - To enable adding text to your selected Google Docs</li>
+        </ul>
+        <li><strong>Document Content:</strong> When you use the Extension to add text to a document, we process the content you input and the document preview information. This data is processed only to fulfill the functionality of the Extension.</li>
+        <li><strong>Local Storage:</strong> The Extension may store your formatting preferences locally on your device to improve your user experience. This data never leaves your device.</li>
+        <li><strong>Usage Data:</strong> We collect anonymous usage statistics to understand how the Extension is being used and to identify areas for improvement.</li>
     </ul>
     
     <h2>3. How We Use Your Information</h2>
     <ul>
-        <li><strong>Google Docs Access:</strong> We use the permissions granted by you to add notes to your selected Google Docs files. The data is only processed locally and via Google APIs.</li>
-        <li><strong>Improving the Extension:</strong> Usage statistics, if collected, are used to understand and improve the Extension's performance and usability.</li>
+        <li><strong>Providing and Improving the Service:</strong> We use the access you grant to display your Google Docs files and add text content to your selected documents.</li>
+        <li><strong>Document Interaction:</strong> All document interactions occur through official Google APIs, and we only perform the specific actions you initiate.</li>
+        <li><strong>Service Enhancement:</strong> Usage statistics help us understand which features are most valuable and where improvements are needed.</li>
+        <li><strong>No Data Mining:</strong> We do not analyze, mine, or extract information from your documents for any purpose beyond providing the Extension's core functionality.</li>
     </ul>
     
-    <h2>4. Information Sharing</h2>
-    <p>We do not share your personal data with third parties. All Google Docs interactions are performed with the permission you provide via Google OAuth.</p>
+    <h2>4. Data Storage and Retention</h2>
+    <p>The Extension does not maintain a database of your documents or their contents. Document data is only accessed during the specific operations you initiate and is not stored on our servers. Your OAuth token is managed securely by Chrome's identity API and is not accessible to us.</p>
     
-    <h2>5. Data Security</h2>
-    <p>We take reasonable steps to protect your information, including using Google's secure APIs. However, no system is 100% secure, and we cannot guarantee the security of your data.</p>
+    <h2>5. Information Sharing and Disclosure</h2>
+    <p>We do not sell, rent, or share any information collected by the Extension with third parties. The only data exchange occurs between the Extension and Google's servers through their official APIs, which is necessary for the Extension to function.</p>
     
-    <h2>6. Third-Party Links</h2>
-    <p>The Extension may include links to third-party websites. We are not responsible for the privacy practices of those sites.</p>
+    <h2>6. Data Security</h2>
+    <p>We implement appropriate security measures to protect your information:</p>
+    <ul>
+        <li>All communication with Google APIs uses secure HTTPS connections</li>
+        <li>We use Google's official OAuth 2.0 implementation for secure authentication</li>
+        <li>The Extension follows Google's security best practices for Chrome extensions</li>
+        <li>Content Security Policy (CSP) is implemented to prevent cross-site scripting and other code injection attacks</li>
+    </ul>
+    <p>While we strive to use commercially acceptable means to protect your data, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
     
-    <h2>7. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Any changes will be posted, and the "Last Updated" date will be modified.</p>
+    <h2>7. Your Data Rights</h2>
+    <p>You have the following rights regarding your data:</p>
+    <ul>
+        <li><strong>Access Control:</strong> You can revoke the Extension's access to your Google account at any time by visiting <a href="https://myaccount.google.com/permissions" target="_blank">Google Account Permissions</a>.</li>
+        <li><strong>Data Deletion:</strong> Since we don't store your data on our servers, there is no personal data to delete beyond what is managed by Google. To revoke access and clear local storage, you can uninstall the Extension.</li>
+        <li><strong>Transparency:</strong> You can contact us at any time with questions about your data and how it's being used.</li>
+    </ul>
+    
+    <h2>8. Children's Privacy</h2>
+    <p>The Extension is not directed to children under the age of 13, and we do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe we may have collected information from your child, please contact us immediately.</p>
+    
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy Policy periodically for any changes.</p>
+    
+    <h2>10. Third-Party Services</h2>
+    <p>The Extension integrates with Google services through their APIs. Your use of Google services is subject to Google's Terms of Service and Privacy Policy. We encourage you to review those policies.</p>
+    
+    <div class="contact">
+        <h2>11. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
+        <p>Email: [YOUR EMAIL ADDRESS]</p>
+        <p>Website: [YOUR WEBSITE URL]</p>
+    </div>
 </body>
 </html>
