@@ -41,7 +41,7 @@ We take your privacy seriously. QuickDocs only accesses the Google Documents and
 
 ## Support
 
-For support or to report issues, please contact us via email at [your-email@example.com] or use the [Chrome Web Store listing](https://chromewebstore.google.com/detail/quickdocs-write-faster-in/lagngcngjbnecbloopjgmnpfchfplppf).
+For support or to report issues, please contact us via email at [aram400@gmail.com] or use the [Chrome Web Store listing](https://chromewebstore.google.com/detail/quickdocs-write-faster-in/lagngcngjbnecbloopjgmnpfchfplppf).
 
 ## License
 
