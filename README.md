@@ -1,42 +1,47 @@
-# Docs SideWriter
+# QuickDocs: Write Faster in Google Docs
 
-Docs SideWriter is a Chrome extension that allows you to easily add text to your Google Docs files directly from the browser.
+QuickDocs is a Chrome extension that allows you to easily add formatted text to your Google Docs files directly from the browser, boosting your productivity.
 
 ## Features
 
-- Add text to Google Docs with a simple interface
-- Select from your recent Google Docs files
-- Support for both LTR and RTL languages
-- Intuitive and easy-to-use popup interface
+- Add rich formatted text to Google Docs with an intuitive interface
+- Format text with bold, italic, underline, and color options
+- Create bullet points, numbered lists, and blockquotes easily
+- Smart formatting detection for automatic list creation
+- Select from your recent Google Docs files or search for specific documents
+- Document preview functionality to see content before editing
+- Support for both LTR and RTL languages automatically
+- Clean, user-friendly popup interface
 
 ## Installation
 
-1. Visit the [Docs SideWriter page on the Chrome Web Store](https://chromewebstore.google.com/detail/docs-sidewriter/lagngcngjbnecbloopjgmnpfchfplppf)
+1. Visit the [QuickDocs page on the Chrome Web Store](https://chromewebstore.google.com/detail/quickdocs-write-faster-in/lagngcngjbnecbloopjgmnpfchfplppf)
 2. Click "Add to Chrome" to install the extension
 
 ## How to Use
 
-1. Click on the Docs SideWriter icon in your Chrome toolbar
-2. Select a Google Docs file from the dropdown menu
-3. Enter your text in the provided text area
-4. Click "Add Text to Document" to append your text to the selected document
+1. Click on the QuickDocs icon in your Chrome toolbar
+2. Select a Google Docs file from the dropdown menu or search for a specific document
+3. Use the rich text editor to format your text as desired
+4. Click "Add Text to Document" to append your formatted text to the selected document
 
 ## Development
 
-This repository contains the website for Docs SideWriter. The actual extension code is not hosted here.
+This repository contains the website for QuickDocs. The actual extension code is not hosted here.
 
 ### Website Structure
 
 - `index.html`: Main landing page for the extension
 - `privacy-policy.html`: Privacy policy for the extension
+- `terms.html`: Terms of service for the extension
 
 ## Privacy
 
-We take your privacy seriously. Please read our [Privacy Policy](https://[Arampc].github.io/docs-sidewriter/privacy-policy.html) for more information on how we handle your data.
+We take your privacy seriously. QuickDocs only accesses the Google Documents and Drive data you explicitly authorize. Please read our [Privacy Policy](https://[YourUsername].github.io/quickdocs/privacy-policy.html) for more information on how we handle your data.
 
 ## Support
 
-For support or to report issues, please use the [Chrome Web Store listing](https://chromewebstore.google.com/detail/docs-sidewriter/lagngcngjbnecbloopjgmnpfchfplppf) or open an issue in this repository.
+For support or to report issues, please contact us via email at [your-email@example.com] or use the [Chrome Web Store listing](https://chromewebstore.google.com/detail/quickdocs-write-faster-in/lagngcngjbnecbloopjgmnpfchfplppf).
 
 ## License
 
@@ -44,4 +49,4 @@ MIT
 
 ---
 
-Docs SideWriter is not affiliated with or endorsed by Google. Google Docs is a trademark of Google LLC.
+QuickDocs is not affiliated with or endorsed by Google. Google Docs is a trademark of Google LLC.
