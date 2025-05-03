@@ -1,64 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SideWriter QuickDocs – Write Faster in Google Docs - Chrome Extension</title>
-    <style> ... </style>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SideWriter QuickDocs – Write Faster in Google Docs</title>
+  <style>
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #6a11cb;
+    }
+    h2 {
+      color: #2575fc;
+      margin-top: 25px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    ul, ol {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #2575fc;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #1e5adf;
+    }
+    .footer-links a {
+      color: #2575fc;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      border-top: 1px solid #e0e0e0;
+      padding-top: 20px;
+      margin-top: 40px;
+      text-align: center;
+      color: #666;
+      font-size: 0.9em;
+    }
+    .logo {
+      width: 100px;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .tagline {
+      font-style: italic;
+      font-size: 1.1em;
+      color: #444;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="icons/icon128.png" alt="SideWriter QuickDocs Logo" class="logo">
-        <h1>SideWriter QuickDocs</h1>
-        <p class="tagline">Write Faster in Google Docs</p>
-        <p>Add text to your Google Docs files directly from the extension with rich formatting.</p>
-    </header>
-    <main>
-        <div class="section">
-            <h2>Features</h2>
-            <div class="feature-section">
-                <ul class="feature-list">
-                    <li><strong>Text Formatting</strong> - Add formatted text with bold, italic, underline, and color options</li>
-                    <li><strong>File Selection</strong> - Quickly select from your recent Google Docs or search for specific files</li>
-                    <li><strong>Right-to-Left Support</strong> - Automatically detects and supports RTL languages</li>
-                    <li><strong>Document Preview</strong> - See a preview of your document before adding text</li>
-                    <li><strong>Smart Formatting</strong> - Automatic detection of lists, bullet points, and blockquotes</li>
-                    <li><strong>Simple Interface</strong> - Clean, intuitive design for maximum productivity</li>
-                </ul>
-            </div>
-        </div>
+  <header>
+    <img src="icons/icon128.png" alt="SideWriter QuickDocs Logo" class="logo">
+    <h1>SideWriter QuickDocs</h1>
+    <p class="tagline">Write Faster in Google Docs</p>
+    <p>Add text to your Google Docs files directly from the extension with rich formatting.</p>
+  </header>
+  <main>
+    <div class="section">
+      <h2>Features</h2>
+      <ul>
+        <li><strong>Text Formatting</strong> – Bold, italic, underline, and color options</li>
+        <li><strong>File Selection</strong> – Quickly choose recent or specific documents</li>
+        <li><strong>RTL Support</strong> – Auto-detection for RTL languages</li>
+        <li><strong>Document Preview</strong> – View changes before adding</li>
+        <li><strong>Smart Lists</strong> – Auto-formats lists and blockquotes</li>
+        <li><strong>Simple UI</strong> – Clean, productive experience</li>
+      </ul>
+    </div>
 
-        <div class="section">
-            <h2>How to Use</h2>
-            <ol class="steps-list">
-                <li>Install the SideWriter QuickDocs extension from the Chrome Web Store</li>
-                <li>Click on the extension icon to open the popup</li>
-                <li>Select a Google Docs file from the dropdown or search for a specific document</li>
-                <li>Format your text using the rich text editor</li>
-                <li>Click "Add Text to Document" to append your formatted text</li>
-            </ol>
-            <a href="https://chromewebstore.google.com/detail/quickdocs-write-faster-in/lagngcngjbnecbloopjgmnpfchfplppf" class="cta-button">Get SideWriter QuickDocs</a>
-        </div>
+    <div class="section">
+      <h2>How to Use</h2>
+      <ol>
+        <li>Install from the Chrome Web Store</li>
+        <li>Click the extension icon to open it</li>
+        <li>Select or search a Google Doc</li>
+        <li>Format your text using the editor</li>
+        <li>Click "Add Text to Document"</li>
+      </ol>
+      <a href="https://chromewebstore.google.com/detail/quickdocs-write-faster-in/lagngcngjbnecbloopjgmnpfchfplppf" class="cta-button">Get SideWriter QuickDocs</a>
+    </div>
 
-        <div class="section">
-            <h2>About</h2>
-            <p>SideWriter QuickDocs is a Chrome extension designed to simplify the process of adding formatted text to your Google Docs. Whether you're collecting notes, saving snippets, or just need a quick way to append text to your documents, SideWriter QuickDocs helps you write faster and more efficiently.</p>
-            <p>Our extension is built with productivity in mind, offering a streamlined way to add text without having to switch between multiple tabs or applications.</p>
-        </div>
+    <div class="section">
+      <h2>About</h2>
+      <p>SideWriter QuickDocs simplifies adding rich text to Google Docs. Whether you're saving ideas, quotes, or summaries, it keeps your workflow fast and focused—no tab switching needed.</p>
+    </div>
 
-        <div class="section">
-            <h2>Contact</h2>
-            <p>For support or feedback, please contact us at: <a href="mailto:aram400@gmail.com">aram400@gmail.com</a></p>
-            <p>We're constantly working to improve SideWriter QuickDocs and welcome your suggestions!</p>
-        </div>
-    </main>
-    <footer>
-        <div class="footer-links">
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <a href="terms.html">Terms of Service</a>
-        </div>
-        <p>&copy; 2025 SideWriter QuickDocs. All rights reserved.</p>
-    </footer>
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Have feedback or need help? Email us at <a href="mailto:aram400@gmail.com">aram400@gmail.com</a></p>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+    <p>&copy; 2025 SideWriter QuickDocs. All rights reserved.</p>
+  </footer>
 </body>
 </html>
