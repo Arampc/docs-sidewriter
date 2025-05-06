@@ -12,63 +12,93 @@
     ul { padding-left: 20px; }
     li { margin-bottom: 10px; }
     .contact { background-color: #f5f8ff; padding: 15px; border-radius: 8px; margin-top: 20px; }
+    .scope-details { background-color: #f9f9f9; padding: 15px; border-left: 3px solid #2575fc; margin: 10px 0; }
   </style>
 </head>
 <body>
   <h1>Privacy Policy for SideWriter QuickDocs</h1>
-  <p class="last-updated">Last Updated: April 29, 2025</p>
-
+  <p class="last-updated">Last Updated: May 6, 2025</p>
+  
   <h2>1. Introduction</h2>
   <p>SideWriter QuickDocs ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard information when you use our Chrome extension.</p>
-
-  <h2>2. Information We Collect</h2>
+  
+  <h2>2. Google User Data We Access</h2>
+  <p>Our extension requires access to specific Google user data to function properly:</p>
+  
+  <div class="scope-details">
+    <p><strong>Google Drive Read Access</strong> (<code>https://www.googleapis.com/auth/drive.readonly</code>):</p>
+    <ul>
+      <li>We access the names and IDs of your Google Docs files to display them in our document selector.</li>
+      <li>This allows you to easily choose which document to add text to without manually entering document IDs.</li>
+      <li>We do not access or read the content of documents until you specifically select them.</li>
+    </ul>
+  </div>
+  
+  <div class="scope-details">
+    <p><strong>Google Docs Modification Access</strong> (<code>https://www.googleapis.com/auth/documents</code>):</p>
+    <ul>
+      <li>We access the content of Google Docs files you specifically select to:</li>
+      <li>Generate a preview of the document content in our extension interface</li>
+      <li>Add formatted text that you create in our extension to your selected document</li>
+      <li>Apply formatting including styles, colors, lists, and other text formatting you create</li>
+    </ul>
+  </div>
+  
+  <h2>3. How We Use Your Google User Data</h2>
   <ul>
-    <li><strong>Google Account Access:</strong> We request the minimum necessary permissions:
+    <li><strong>Document Lists:</strong> Your Google Docs file names and IDs are temporarily loaded in the extension interface to enable document selection.</li>
+    <li><strong>Document Content:</strong> Content from your selected document is accessed only to:
       <ul>
-        <li><code>https://www.googleapis.com/auth/drive.readonly</code></li>
-        <li><code>https://www.googleapis.com/auth/documents</code></li>
+        <li>Generate a preview within the extension interface</li>
+        <li>Determine where to add your new content</li>
+        <li>Apply formatted text that you create within the extension</li>
       </ul>
     </li>
-    <li><strong>Document Content:</strong> Only processed to fulfill the extension's functionality.</li>
-    <li><strong>Local Storage:</strong> Used for storing preferences, never transmitted.</li>
-    <li><strong>Usage Data:</strong> Collected anonymously for improvements.</li>
+    <li><strong>No Data Storage:</strong> We do not store, retain, or transmit your document data to any external servers. All processing happens locally in your browser.</li>
+    <li><strong>No Data Mining:</strong> We do not analyze, mine, or use your document content for any purpose other than the direct functionality of the extension.</li>
   </ul>
-
-  <h2>3. How We Use Your Information</h2>
+  
+  <h2>4. Information We Collect</h2>
   <ul>
-    <li>To enable extension functionality.</li>
-    <li>All document interaction happens via official Google APIs.</li>
-    <li>No mining or unauthorized analysis of document data.</li>
+    <li><strong>Local Storage:</strong> Used only for storing your preferences within the extension, never transmitted to external servers.</li>
+    <li><strong>Usage Data:</strong> Basic anonymous usage statistics may be collected to improve the extension.</li>
   </ul>
-
-  <h2>4. Data Storage and Retention</h2>
-  <p>We do not store document data. OAuth tokens are managed securely by Chrome's Identity API.</p>
-
-  <h2>5. Information Sharing and Disclosure</h2>
-  <p>No data is sold, rented, or shared. Data exchange only occurs via Google's APIs.</p>
-
-  <h2>6. Data Security</h2>
+  
+  <h2>5. Data Storage and Retention</h2>
+  <p>We do not store your Google Docs or Drive data on our servers. All document interaction happens directly between your browser and Google's APIs. OAuth tokens are managed securely by Chrome's Identity API and stored only in your browser.</p>
+  
+  <h2>6. Information Sharing and Disclosure</h2>
+  <p>We do not sell, rent, or share your data with any third parties. The only data exchange occurs directly between your browser and Google's APIs when you use the extension.</p>
+  
+  <h2>7. Data Security</h2>
   <ul>
-    <li>All API calls use HTTPS.</li>
-    <li>Official OAuth 2.0 is used for authentication.</li>
-    <li>Follows Google’s Chrome extension security guidelines.</li>
-    <li>CSP is implemented to prevent code injection attacks.</li>
+    <li>All API calls use HTTPS encryption.</li>
+    <li>We use Google's official OAuth 2.0 authentication system.</li>
+    <li>The extension follows Google's Chrome extension security guidelines.</li>
+    <li>Content Security Policy (CSP) is implemented to prevent code injection attacks.</li>
+    <li>Your documents are accessed only when you explicitly interact with the extension.</li>
   </ul>
-
-  <h2>7. Your Data Rights</h2>
+  
+  <h2>8. Your Data Rights</h2>
   <ul>
-    <li>You can revoke access via <a href="https://myaccount.google.com/permissions" target="_blank">Google Account Permissions</a>.</li>
-    <li>Uninstall the extension to delete local data.</li>
-    <li>Contact us for any privacy-related concerns.</li>
+    <li>You can revoke access to your Google data at any time via <a href="https://myaccount.google.com/permissions" target="_blank">Google Account Permissions</a>.</li>
+    <li>Uninstalling the extension will remove all local data stored by the extension.</li>
+    <li>You can request information about your data by contacting us at [YOUR CONTACT EMAIL].</li>
   </ul>
-
-  <h2>8. Children’s Privacy</h2>
-  <p>We do not knowingly collect data from children under 13.</p>
-
-  <h2>9. Changes to This Privacy Policy</h2>
-  <p>We may update this policy. Updates will appear here with a revised date.</p>
-
-  <h2>10. Third-Party Services</h2>
-  <p>Google services are used. Your use is subject to Google’s terms and privacy policy.</p>
+  
+  <h2>9. Children's Privacy</h2>
+  <p>We do not knowingly collect data from children under 13 years of age.</p>
+  
+  <h2>10. Changes to This Privacy Policy</h2>
+  <p>We may update this policy periodically. Updates will appear on this page with a revised date.</p>
+  
+  <h2>11. Third-Party Services</h2>
+  <p>Our extension interacts with Google services. Your use of these services is also subject to Google's terms of service and privacy policy.</p>
+  
+  <div class="contact">
+    <h2>12. Contact Information</h2>
+    <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
+    <p>[YOUR CONTACT EMAIL]</p>
+  </div>
 </body>
 </html>
